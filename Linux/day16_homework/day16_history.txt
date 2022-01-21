@@ -1,0 +1,202 @@
+  889  cd day16_homework/
+  890  vim main.c
+  891  gcc -g main.c
+  892  ls
+  893  ./a.out 3 4
+  894  gdb a.out
+  895  vim main.c
+  896  cat main.c
+  897  gcc -g main.c
+  898  gdb a.out
+  899  ls
+  900  cd day16_homework/
+  901  ls
+  902  mkdir core
+  903  cp main.c core
+  904  cd core
+  905  ls
+  906  vim main.c
+  907  gcc main.c
+  908  ./a.out 3 4
+  909  ls
+  910  gcc -g main.c
+  911  ulimit -a
+  912  ulimit -c unlimited
+  913  ulimit -a
+  914  ls
+  915  ./a.out 5 6
+  916  ls
+  917  gdb a.out core
+  918  ls
+  919  ls -l
+  920  ls -lh
+  921  ulimit -a
+  922  cd ..
+  923  ls
+  924  mkdir makefile
+  925  vim main.c
+  926  ls
+  927  cd makefile
+  928  vim main.c
+  929  vim multi.c
+  930  vim Makefile
+  931  vim Makefile 
+  932  make
+  933  vim main.c
+  934  vim multi.c
+  935  vim main,c
+  936  vim main.c
+  937  ls
+  938  vim Makefile 
+  939  ls
+  940  make
+  941  ls
+  942  cat Makefile 
+  943  makeclean
+  944  make clean
+  945  ls
+  946  make
+  947  ls
+  948  cat Makefile
+  949  vim main.c
+  950  vim main.c 
+  951  vim multi.c
+  952  make
+  953  cat Makefile
+  954  cat main.c
+  955  cat multi.c
+  956  vim Makefile 
+  957  make
+  958  ls
+  959  ./main
+  960  cp Makefile Makefile1
+  961  ls
+  962  vim Makefile
+  963  ls
+  964  make clean
+  965  ls
+  966  rm main.o multi.o
+  967  ls
+  968  vim main.c
+  969  vim print.c
+  970  make
+  971  ls
+  972  vim Makefile
+  973  make
+  974  vim Makefile
+  975  make clean
+  976  makemake
+  977  make
+  978  vim main.c
+  979  vim print.c 
+  980  vim Makefile
+  981  cp Makefile Makefile2
+  982  ls
+  983  rm Makefile
+  984  cp Makefile1 Makefile
+  985  ls
+  986  make
+  987  ls
+  988  ./main
+  989  make clean
+  990  vim Makefile2
+  991  ls
+  992  rm Makefile
+  993  cp Makefile2 Makefile
+  994  ls
+  995  cat Makefile
+  996  make
+  997  vim main
+  998  vim main.c
+  999  vim Makefile
+ 1000  make
+ 1001  ls
+ 1002  make
+ 1003  cat Makefile
+ 1004  cat main.c
+ 1005  cat print.c
+ 1006  cat multi.c
+ 1007  ls
+ 1008  rm Makefile
+ 1009  cp Makefile1 Makefile
+ 1010  ls
+ 1011  mkdir makefile2
+ 1012  ls
+ 1013  mv Makefile2 makefile2/Makefile
+ 1014  ls
+ 1015  cd makefile2/
+ 1016  ls
+ 1017  vim main.c
+ 1018  vim main1.c
+ 1019  vim main.c
+ 1020  ls
+ 1021  make
+ 1022  ls
+ 1023  cd ..
+ 1024  ls
+ 1025  mkdir fopen
+ 1026  cd fopen/
+ 1027  vim fopen_ab.c
+ 1028  gcc fopen_ab.c 
+ 1029  ls
+ 1030  echo -n hello >file
+ 1031  ./.out
+ 1032  ./a.out
+ 1033  vim fopen_ab.c 
+ 1034  gcc fopen_ab.c 
+ 1035  ./a.out
+ 1036  cd ..
+ 1037  ls
+ 1038  mkdir sprintf
+ 1039  cd sprintf/
+ 1040  vim sprintf.c
+ 1041  gcc sprintf.c 
+ 1042  ls
+ 1043  ./a.out
+ 1044  vim sprintf.c 
+ 1045  gcc sprintf.c 
+ 1046  ./a.out 
+ 1047  ls
+ 1048  ./a.out
+ 1049  vim sprintf.c 
+ 1050  gcc sprintf.c 
+ 1051  ./a.out 
+ 1052  cp sprintf.c sscanf.c
+ 1053  vim sscanf.c 
+ 1054  gcc sscanf.c 
+ 1055  ./a.out 
+ 1056  cd ..
+ 1057  ls
+ 1058  mkdir chmod
+ 1059  cd chmod/
+ 1060  vim chmod.c
+ 1061  gcc chmod.c 
+ 1062  touch file
+ 1063  ll
+ 1064  gcc chmod.c -o chmod
+ 1065  ll
+ 1066  ./chmod file
+ 1067  echo $?
+ 1068  ./chmod
+ 1069  echo $?
+ 1070  cd ..
+ 1071  mkdir dir_op
+ 1072  vim getcwd.c
+ 1073  gcc getcwd.c 
+ 1074  ./a.out 
+ 1075  ls
+ 1076  rm a.out 
+ 1077  mv getcwd.c dir_op/getcwd.c
+ 1078  cd dir_op/
+ 1079  ls
+ 1080  gcc getcwd.c 
+ 1081  ls
+ 1082  ./a.out 
+ 1083  pwd
+ 1084  vim getcwd.c 
+ 1085  cp getcwd.c chdir.c
+ 1086  vim chdir.c 
+ 1087  gcc chdir.c 
+ 1088  ./a.out 
+ 1089  history
+ 1090  history |tail -202 >day16_history.txt

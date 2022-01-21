@@ -1,0 +1,47 @@
+ 1098  cd day17
+ 1099  ls
+ 1100  vim fun.h
+ 1101  cp fun.h func.h
+ 1102  ls
+ 1103  vim func.h 
+ 1104  sudo mv func.h /usr/include/
+ 1105  ls
+ 1106  rm fun.h
+ 1107  mkdir mkdir
+ 1108  cd mkdir/
+ 1109  vim mkdir.c
+ 1110  vim /usr/include/func.h 
+ 1111  vim mkdir.c 
+ 1112  vim /usr/include/func.h 
+ 1113  vim mkdir.c 
+ 1114  gcc mkdir.c 
+ 1115  vim mkdir.c 
+ 1116  gcc mkdir.c 
+ 1117  ls
+ 1118  ./a.out dir1
+ 1119  ll
+ 1120  cp /usr/include/func.h ../
+ 1121  ls
+ 1122  ls ..
+ 1123  ls
+ 1124  cp mkdir.c rmdir.c
+ 1125  vim rmdir.c 
+ 1126  gcc rmdir.c 
+ 1127  ./a.out dir1
+ 1128  ls
+ 1129  touch dir1/aaa
+ 1130  mkdir dir1
+ 1131  touch dir1/aaa
+ 1132  ./a.out dir1/
+ 1133  vim /usr/include/func.h
+ 1134  cd ..
+ 1135  mkdir opendir
+ 1136  ls
+ 1137  cd opendir/
+ 1138  vim opendir.c
+ 1139  gcc opendir.c 
+ 1140  ls
+ 1141  ./a.out .
+ 1142  ls -ali
+ 1143  history
+ 1144  history |tail -47 >day17_history.txt
